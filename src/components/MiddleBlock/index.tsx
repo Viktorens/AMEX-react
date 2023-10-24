@@ -9,6 +9,7 @@ interface MiddleBlockProps {
   content: string;
   button: string;
   t: any;
+  id: string;
 }
 
 const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {

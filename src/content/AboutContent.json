@@ -1,16 +1,4 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
-  "section": [
-    {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
-    },
-    {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
-    }
-  ]
+  "title": "Află mai multe despre noi",
+  "text": "La Amex, suntem pasionați de îmbogățirea vieților prin calitate și excelență. Călătoria noastră se bazează pe crearea de experiențe care inspiră, satisfac și ridică nivelul. Cu un angajament ferm față de o calitate de neegalat și un respect profund pentru mediu, am pregătit o selecție de produse de top. Ceea ce ne diferențiază este convingerea că fiecare interacțiune cu noi ar trebui să vă lase inspirat. Suntem dedicați să creăm relații durabile bazate pe încredere, transparență și servicii excepționale."
 }

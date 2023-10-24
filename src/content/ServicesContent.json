@@ -1,0 +1,16 @@
+{
+  "title": "Serviciile noastre",
+  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "section": [
+    {
+      "title": "Gama de produse",
+      "content": "Credem cu tărie că produsele noastre adaugă valoare gamei pe care dumneavoastră o comercializați.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Parteneri de top",
+      "content": "În portofoliul nostru se regăsesc producători renumiți la nivel mondial în diverse domenii.",
+      "icon": "notes.svg"
+    }
+  ]
+}
