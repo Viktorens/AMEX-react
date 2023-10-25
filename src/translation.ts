@@ -4,6 +4,7 @@ import XHR from "i18next-xhr-backend";
 
 import translationEn from "./locales/en/translation.json";
 import translationRo from "./locales/ro/translation.json";
+import translationDe from "./locales/de/translation.json";
 
 i18n
   .use(XHR)
@@ -24,6 +25,9 @@ i18n
       },
       ro: {
         translations: translationRo,
+      },
+      de: {
+        translations: translationDe,
       },
     },
     ns: ["translations"],

@@ -91,7 +91,8 @@ export const FooterContainer = styled("div")`
   max-width: 510px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap:1rem;
   text-align: center;
   align-items: center;
   transition: all 0.1s ease-in-out;
@@ -108,10 +109,6 @@ export const FooterContainer = styled("div")`
 
   @media screen and (max-width: 769px) {
     width: auto;
-
-    a:not(:last-child) {
-      display: none;
-    }
   }
 
   div {
@@ -141,7 +138,7 @@ export const Label = styled("label")`
   text-transform: capitalize;
   color: #18216d;
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
   font-family: "Motiva Sans Bold", serif;
 
   @media screen and (max-width: 414px) {
@@ -166,5 +163,5 @@ export const LanguageSwitch = styled("div")<any>`
 export const LanguageSwitchContainer = styled("div")`
   display: flex;
   justify-content: space-between;
-  width: 85px;
+  width: 128px;
 `;
