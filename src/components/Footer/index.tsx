@@ -10,9 +10,7 @@ import {
   Extra,
   LogoContainer,
   Para,
-  Empty,
   FooterContainer,
-  Language,
   Label,
   LanguageSwitch,
   LanguageSwitchContainer,
@@ -48,8 +46,7 @@ const Footer = ({ t }: any) => {
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
+              <Label>{t("Address")}</Label>
               <Para>office@amexgroup.ro</Para>
               <Para>+40 751 547 435</Para>
               <Para>{t("Bucharest")}</Para>
@@ -67,7 +64,15 @@ const Footer = ({ t }: any) => {
                 </LanguageSwitch>
                 <LanguageSwitch onClick={() => handleChange("en")}>
                   <SvgIcon
-                    src="united-states.svg"
+                    src="united-kingdom.svg"
+                    aria-label="homepage"
+                    width="30px"
+                    height="30px"
+                  />
+                </LanguageSwitch>
+                <LanguageSwitch onClick={() => handleChange("de")}>
+                  <SvgIcon
+                    src="german.svg"
                     aria-label="homepage"
                     width="30px"
                     height="30px"
