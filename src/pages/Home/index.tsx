@@ -19,21 +19,21 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="intro.jpeg"
         id="intro"
       />
       <ContentBlock
         type="right"
         title={AboutContent.title}
         content={AboutContent.text}
-        icon="product-launch.svg"
+        icon="about.jpeg"
         id="about"
       />
       <ContentBlock
         type="left"
         title={TeamContent.title}
         content={TeamContent.text}
-        icon="waving.svg"
+        icon="parteners.jpeg"
         id="team"
       />
       <ContentBlock
@@ -41,7 +41,7 @@ const Home = () => {
         title={ServicesContent.title}
         content={ServicesContent.text}
         section={ServicesContent.section}
-        icon="graphs.svg"
+        icon="services.jpeg"
         id="services"
       />
       <Contact
