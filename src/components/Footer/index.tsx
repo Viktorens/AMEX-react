@@ -84,7 +84,7 @@ const Footer = ({ t }: any) => {
         </Container>
       </FooterSection>
       <Extra>
-        <Container border={true}>
+        <Container border={'true'}>
           <Row
             justify="space-between"
             align="middle"

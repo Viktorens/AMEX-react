@@ -1,10 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { I18nextProvider } from "react-i18next";
-import "antd/dist/antd.css";
+import 'antd/dist/reset.css';
 
 import Router from "./router";
 import i18n from "./translation";
+import React from "react";
 
 const App = () => (
   <BrowserRouter>
@@ -14,4 +15,9 @@ const App = () => (
   </BrowserRouter>
 );
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

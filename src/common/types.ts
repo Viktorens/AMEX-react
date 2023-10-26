@@ -1,11 +1,11 @@
 export interface ContainerProps {
-  border?: boolean;
+  border?: string;
   children: React.ReactNode;
 }
 
 export interface ButtonProps {
   color?: string;
-  fixedWidth?: boolean;
+  fixedwidth?: string;
   name?: string;
   children: React.ReactNode;
   onClick?: () => void;
